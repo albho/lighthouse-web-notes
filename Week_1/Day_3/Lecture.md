@@ -23,3 +23,7 @@
 ### Methods
 - calling a function *inside* of an object stores the function's return value within the corresponding key (as a **property**, not a **method**)
 - defining a function inside of an object (to be called *outside* of the function) stores the function as a **method** within the object
+
+### Looping
+- arrays: for ... of (for ... in will return **index**)
+- objects: for ... in
