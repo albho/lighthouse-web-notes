@@ -19,3 +19,7 @@
   - mutable
   - are passed via **reference**
 - functions cannot mutate primitive values outside of its scope, whereas objects can be mutated (so, you must be careful!)
+
+### Methods
+- calling a function *inside* of an object stores the function's return value within the corresponding key (as a **property**, not a **method**)
+- defining a function inside of an object (to be called *outside* of the function) stores the function as a **method** within the object
