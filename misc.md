@@ -23,3 +23,9 @@ Reference: https://developer.mozilla.org/en-US
 
 ### Side Effects
 - a function, expression, or operation has a **side effect** if it modifies some *state* variable outside its local environment i.e. has an effect besides returing a value (the primary effect) to the invoker
+
+### *this* Keyword
+- this: the **object** that is executing the current function
+- in a method: *this* references owner object
+- in a regular function: *this* references global object
+  - exception: for constructor functions: *this* references the new object
